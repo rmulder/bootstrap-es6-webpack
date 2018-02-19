@@ -1,20 +1,20 @@
 # bootstrap-es6-webpack
-Boilerplate with bootstrap using webpack, es6, sass, imagemin and custom fonts
+Boilerplate with bootstrap using webpack, bootstrap, jquery, es6, sass, imagemin and custom fonts.
 
 
 
 ## Installation
 ```
-Yarn
+yarn
 ```
 
 ## Development
 ```
-Yarn start
+yarn start
 ```
 
 
-## Production
+## Production build
 ```
-Yarn prod
+yarn prod
 ```
