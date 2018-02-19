@@ -48,7 +48,8 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: '[name].[ext]',
-            outputPath: './assets/'
+            publicPath: 'assets/',
+            outputPath: 'assets/'
           }
         },
           'image-webpack-loader'
@@ -60,7 +61,8 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: './fonts/'
+          publicPath: 'fonts/',
+          outputPath: 'fonts/'
         }
       }
     ]
