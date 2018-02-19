@@ -71,9 +71,6 @@ module.exports = {
       template: 'index.html'
     }),
     new ExtractTextPlugin('style.css'),
-    new webpack.ProvidePlugin({
-      $: 'jquery'
-    }),
     new UglifyJSPlugin({
       output: {
         comments: false
